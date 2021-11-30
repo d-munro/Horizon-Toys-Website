@@ -44,6 +44,7 @@ img {
 
 .clickable:hover {
   cursor: pointer;
+  background-color: #000040;
 }
 
 .title {

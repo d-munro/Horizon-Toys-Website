@@ -31,28 +31,33 @@
       <a class="navbar-brand title">
         Horizon Tech Toys
       </a>
-      <ul class="navbar-nav ml-auto">
-        <li class="navbar-item">
-          <a class="nav-link clickable" onclick="scrollToPageLocation('about')">
-            About
-          </a>
-        </li>
-        <li class="navbar-item">
-          <a class="nav-link clickable" onclick="scrollToPageLocation('philosophy')">
-            Philosophy
-          </a>
-        </li>
-        <li class="navbar-item">
-          <a class="nav-link clickable" onclick="scrollToPageLocation('products')">
-            Products
-          </a>
-        </li>
-        <li class="navbar-item">
-          <a class="nav-link clickable" onclick="scrollToPageLocation('social-media')">
-            Social Media
-          </a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navBar">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a class="nav-link clickable" onclick="scrollToPageLocation('about')">
+              About
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link clickable" onclick="scrollToPageLocation('philosophy')">
+              Philosophy
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link clickable" onclick="scrollToPageLocation('products')">
+              Products
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link clickable" onclick="scrollToPageLocation('social-media')">
+              Social Media
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
 </header>
@@ -91,9 +96,9 @@
   <section id="products">
     <div class="container-fluid">
       <h2 class="section-header"> Our Products </h2>
-      <div class = "body-description">
-        <img src = "Images/lwss.png" alt = "LWSS Arrow Flight">
-        <p class = "product-description"> LWSS Arrow Flight </p>
+      <div class="body-description">
+        <img src="Images/lwss.png" alt="LWSS Arrow Flight">
+        <p class="product-description"> LWSS Arrow Flight </p>
       </div>
     </div>
   </section>
