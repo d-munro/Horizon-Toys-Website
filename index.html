@@ -19,11 +19,14 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Scripts -->
+  <script src = "script.js"> </script>
 </head>
 
 <header>
   <!-- Navigation Bar -->
-  <img src = "Images/company_logo.jpg">
+  <img src = "Images/company_logo.jpg" alt = "horizon tech toys logo">
 </header>
 
 <body>
@@ -70,10 +73,10 @@
   <section id="socials">
     <div class="container-fluid">
       <h2 class="section-header"> Socials </h2>
-      <img src="Images/instagram_logo.png">
-      <a href="https://www.instagram.com/horizon_tech_toys/"> Follow us on instagram </a>
-      <img src="Images/twitter_logo.png">
-      <a href="https://twitter.com/HorizonTechToys"> Follow us on twitter </a>
+      <img src="Images/instagram_logo.png" alt = "instagram logo" class = "clickable"
+       onclick = "loadPage('https://www.instagram.com/horizon_tech_toys/')">
+      <img src="Images/twitter_logo.png" alt = "twitter logo" class = "clickable"
+       onclick = "loadPage('https://twitter.com/HorizonTechToys')">
     </div>
   </section>
 </footer>
