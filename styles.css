@@ -40,3 +40,8 @@ img {
 .clickable:hover {
   cursor: pointer;
 }
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
