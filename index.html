@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Horizon Tech Toys</title>
+  <link rel="icon" type="image/x-icon" href="Images/company_logo.jpg">
 
   <!-- Bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -21,12 +22,39 @@
   <link rel="stylesheet" href="styles.css">
 
   <!-- Scripts -->
-  <script src = "script.js"> </script>
+  <script src="script.js"> </script>
 </head>
 
 <header>
   <!-- Navigation Bar -->
-  <img src = "Images/company_logo.jpg" alt = "horizon tech toys logo">
+  <nav class="navbar navbar-expand-md">
+    <!-- Is horizontal until medium screen size -->
+    <a class="navbar-brand">
+      Horizon Tech Toys
+    </a>
+    <ul class="navbar-nav ml-auto">
+      <li class="navbar-item">
+        <a class = "nav-link" href = "">
+          About
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a class = "navbar-link" href = "">
+          Philosophy
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a class = "navbar-link" href = "">
+          Products
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a class = "navbar-link" href = "">
+          Social Media
+        </a>
+      </li>
+    </ul>
+  </nav>
 </header>
 
 <body>
@@ -35,7 +63,7 @@
   <section id="about">
     <div class="container-fluid">
       <h2 class="section-header"> About Us </h2>
-      <p class = "body-description">
+      <p class="body-description">
         Horizon Tech Toys was founded on November 22, 2021.
         We are developing commercial space-travel themed toys for children.
         These toys are small enough to fit in a Kinder(TM) Egg when disassembled,
@@ -50,7 +78,7 @@
   <section id="philosophy">
     <div class="container-fluid">
       <h2 class="section-header"> Our Philosophy </h2>
-      <p class = "body-description">
+      <p class="body-description">
         At Horizon, we believe in reaching for the stars with our toys, both literally and figuratively.
         We believe that in creating the toys, all of our toys should be created at the highest level,
         and any effort below that is insufficient. These toys are the future of entertainment for children,
@@ -72,11 +100,9 @@
   <!-- Socials -->
   <section id="socials">
     <div class="container-fluid">
-      <h2 class="section-header"> Socials </h2>
-      <img src="Images/instagram_logo.png" alt = "instagram logo" class = "clickable"
-       onclick = "loadPage('https://www.instagram.com/horizon_tech_toys/')">
-      <img src="Images/twitter_logo.png" alt = "twitter logo" class = "clickable"
-       onclick = "loadPage('https://twitter.com/HorizonTechToys')">
+      <h2 class="section-header"> Follow Us On Social Media </h2>
+      <img src="Images/instagram_logo.png" alt="instagram logo" class="clickable" onclick="loadPage('https://www.instagram.com/horizon_tech_toys/')">
+      <img src="Images/twitter_logo.png" alt="twitter logo" class="clickable" onclick="loadPage('https://twitter.com/HorizonTechToys')">
     </div>
   </section>
 </footer>
