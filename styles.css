@@ -37,6 +37,11 @@ img {
   font-size: 2rem;
 }
 
+.product-description {
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
 .clickable:hover {
   cursor: pointer;
 }
